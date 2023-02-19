@@ -15,6 +15,7 @@ body {
   align-items: center;
   height: 100vh;
   font-family: "Roboto", sans-serif;
+  background-color: #f2cd5c;
 }
 .calculator {
   /* older way, using floats
@@ -26,7 +27,7 @@ body {
   padding: 40px;
   padding-top: 75px;
   width: 400px;
-  background-color: #1e1e1e;
+  background-color: #1e1e1ea6;
   border-radius: 30px;
 }
 .calculator-screen {
@@ -50,18 +51,19 @@ button {
   border: none;
   height: 60px;
   border-radius: 30px;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: bold;
   color: #1e1e1e;
   margin: 7px;
   padding: 5px;
-  flex: 1 0 19%;
+  flex: 1 0 20%;
+  cursor: pointer;
 }
 button:hover {
   background-color: gray;
 }
 .all-clear {
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.457);
   color: aliceblue;
   font-size: 3.5rem;
 }
