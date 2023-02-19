@@ -1,19 +1,3 @@
-// TODO
-// our calculator has to:
-// accept user inputs and also decimal numbers
-// it has to store inputs
-// recongize inputs and perform calculations
-// return us a result
-
-// optional features:
-// should accept longer arithmetic operations, aka 56+5-2/3*4
-// display all input as it's being entered
-// store previous total result as start of the next operation
-// clear button to clear all entries
-// implement sqrt
-// should prevent invalid bad inputs (operators next to each other and two decimal points )
-// shouldn't start with negative numbers
-
 const keys = document.querySelector(".calculator-buttons");
 keys.addEventListener("click", (event) => {
   const { target } = event;
